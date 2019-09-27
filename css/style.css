@@ -30,7 +30,7 @@ body{
     overflow: hidden;
     background: linear-gradient(90deg,#000,#fff,#000);
     background-repeat:no-repeat;
-    animation: animate 6s linear infinite; 
+/*     animation: animate 6s linear infinite;  */
     background-size: 80%;
     background-clip: text;
     -webkit-background-clip: text;
