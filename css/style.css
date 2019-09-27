@@ -1,0 +1,159 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#container{
+    margin : 20px auto;
+    background-color: white;
+    height: 300px;
+    width : 800px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#startQuiz h5{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    color : lightgrey;
+    padding: 5px;
+    margin: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg,#000,#fff,#000);
+    background-repeat:no-repeat;
+    animation: animate 6s linear infinite; 
+    background-size: 80%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position:  500%;
+    }
+}
+
+#startbtn{
+    margin-top: 20px;
+    top: 45%;
+    left: 44.3%;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+	display:block;
+	padding:10px;
+    text-align:top;
+    text-transform:uppercase;
+	text-decoration:none;
+    transition:.5s;
+    border: 2px solid lightgrey;
+}
+#startbtn:hover{
+    box-shadow: 0px 5px 15px 0px;
+    border: 5px lightgray;
+}
+#qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 200px;
+    height : 200px;
+    border-top-left-radius: 5px;
+    margin: 20px;
+}
+
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#question p{
+    margin : 20px;
+    padding : 10px;
+    font-size: 1.25em;
+}
+
+#choices{
+    width : 500px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 5px
+}
+.choice{
+    display: inline-block;
+    width : 130px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+.choice:hover{
+    font-weight: bold;
+    box-shadow: 0px 5px 15px 0px;
+}
+
+#timer{
+    position: absolute;
+    height : 110px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 2em;
+    padding: 5px;
+    margin-left: 30px;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+    margin-bottom : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding: 20px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="startQuiz" style="display: block">
+            <h5>Quiz Game</h5>
+            <a href="#" id="startbtn">Let's Slove!!!</a>
+        </div>
+        <div id="quiz" style="display: none">
+           <div id="question"></div>
+            <div id="qImg"><img src="./data/question-banner.png" alt=""></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" ></div>
+    </div>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
+
+<!--  -->

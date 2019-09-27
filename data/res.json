@@ -1,0 +1,22 @@
+{
+    "Questions": [
+        {
+        "question": "waht is html stands for",
+        "Choices" : ["Hyper text markup language", "Choice2", "Choice3", "Choice4"],
+        "CorrectAnswer": "Choice2",
+        "id": 1
+        },
+        {
+        "question": "waht is JS stands for",
+        "Choices" : ["Choice1", "Choice2", "Choice3", "Choice4"],
+        "CorrectAnswer": "Choice3",
+        "id": 2
+        },
+        {
+        "question": "waht is CSS stands for",
+        "Choices" : ["Choice1", "Choice2", "Choice3", "Choice4"],
+        "CorrectAnswer": "Choice4",
+        "id": 3
+        }
+    ]
+}
